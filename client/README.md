@@ -1,6 +1,6 @@
-# QuickDine Frontend
+# ProntaReserva Frontend
 
-Welcome to the frontend repository for **QuickDine** – a modern, premium table booking and reservation platform designed for a seamless dining experience.
+Welcome to the frontend repository for **ProntaReserva** – a modern, premium table booking and reservation platform designed for a seamless dining experience.
 
 This application is built using **React 19**, **Vite**, **TypeScript**, and **Tailwind CSS v4**.
 
@@ -33,8 +33,8 @@ Ensure you have **Node.js** (v18 or higher) and **npm** installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quickdine-frontend.git
-   cd quickdine-frontend
+   git clone https://github.com/maga92/ProntaReserva.git
+   cd ProntaReserva/client
    ```
 
 2. Install dependencies:

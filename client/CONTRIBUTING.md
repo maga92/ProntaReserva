@@ -1,6 +1,6 @@
-# Contributing to QuickDine Frontend
+# Contributing to ProntaReserva Frontend
 
-First off, thank you for considering contributing to QuickDine! It is people like you who make open source such a wonderful ecosystem.
+First off, thank you for considering contributing to ProntaReserva! It is people like you who make open source such a wonderful ecosystem.
 
 ## How Can I Contribute?
 
