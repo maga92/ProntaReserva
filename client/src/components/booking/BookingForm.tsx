@@ -108,7 +108,7 @@ export default function BookingForm({
                 <div className="flex items-start gap-3 py-2">
                     <input type="checkbox" id="newsletterOpt" className="mt-1 cursor-pointer" defaultChecked />
                     <label htmlFor="newsletterOpt" className="text-xs text-black/55 leading-relaxed cursor-pointer select-none">
-                        Send me seasonal tasting menu invitations and private chef event notifications from QuickDine.
+                        Send me seasonal tasting menu invitations and private chef event notifications from ProntaReserva.
                     </label>
                 </div>
 
