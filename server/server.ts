@@ -3,6 +3,7 @@ import express, { NextFunction, Request, Response } from 'express';
 import cors from "cors";
 import connectDB from "./config/db.js";
 import authRouter from "./routes/AuthRoutes.js";
+import restaurantRouter from "./routes/restaurantRoutes.js";
 
 const app = express();
 
@@ -18,7 +19,9 @@ const port = process.env.PORT || 5000;
 app.get('/', (req: Request, res: Response) => {
     res.send('ProntaReserva: servidor rodando!');
 });
-app.use("/api/auth/", authRouter)
+app.use("/api/auth", authRouter)
+app.use("/api/restaurant", restaurantRouter)
+
 
    //Manipulador de erros global
    app.use((err: Error, req: Request, res: Response, next: NextFunction) =>{
